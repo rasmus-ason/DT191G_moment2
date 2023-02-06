@@ -1,0 +1,47 @@
+@model List<DT191G_moment2.Models.CourseModel>
+
+@{
+    ViewData["Title"] = "Utbildning";
+}
+
+<h2>Kurser</h2>
+
+<div class="horizontalDivideLine"></div>
+
+<article class="course-presentation-container">
+    @foreach (var item in Model)
+    {
+        <div class="course-presentation">
+            <h3>@item.Name</h3>
+            <p class="points">@item.Points hp</p>
+            <div class="card-divideline"></div>
+            
+            <h4>Om kursen</h4>
+            <p>@item.Description</p>
+
+            <div class="card-divideline"></div>
+
+            <h5>Projekt</h5>
+            <div class="cardButtons">
+
+            
+
+            @if(@item.PublishedURL != null) {
+
+                <a href="@item.PublishedURL" target="_blank" class="course-presentation-left-btn">Webbplats</a>
+
+            }
+
+            @if(@item.VideoPresentation != null) {
+
+                <a href="@item.VideoPresentation" target="_blank" class="course-presentation-right-btn">Presentation</a>
+
+            }
+
+            </div>
+
+
+            
+        </div>
+    }
+</article>

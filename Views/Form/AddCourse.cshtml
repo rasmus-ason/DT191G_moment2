@@ -1,0 +1,45 @@
+@model DT191G_moment2.Models.CourseModel;
+
+@{
+    ViewData["Title"] = "Lägg till kurs";    
+}
+
+<h2>Add Course</h2>
+
+<div class="success-msg" id="courseAddedMessage">@ViewBag.AddedCourseSuccess</div>
+
+<a class="logout-btn" asp-controller="Login" asp-action="Logout">Logga ut</a>
+
+<form method="post">
+    
+    <label asp-for="Name"></label><br>
+    <span asp-validation-for="Name"></span>
+    <input asp-for="Name">
+    
+    <br>
+
+    <label asp-for="Points"></label><br>
+    <span asp-validation-for="Points"></span>
+    <input asp-for="Points">
+    
+    <br>
+
+    <label asp-for="Description"></label><br>
+    <span asp-validation-for="Description"></span>
+    <textarea asp-for="Description" rows="5" cols="40"></textarea>
+    
+
+    <br>
+
+    <label asp-for="PublishedURL"></label>
+    <input asp-for="PublishedURL">
+    <br>
+
+    <label asp-for="VideoPresentation"></label>
+    <input asp-for="VideoPresentation">
+    <br>
+
+    <input type="submit" value="Lägg till kurs!">
+
+
+</form>

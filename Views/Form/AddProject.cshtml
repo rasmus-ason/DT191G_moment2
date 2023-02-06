@@ -1,0 +1,112 @@
+@model DT191G_moment2.Models.ProjectModel;
+
+
+@{
+    ViewData["Title"] = "Lägg till projekt";
+
+    var allcourses = new string[] { 
+    "Webbutveckling I",
+    "Webbutveckling II",
+    "Webbutveckling III",
+    "Introduktion till programmering i Javascript",
+    "Digital bildbehandling för webb",
+    "Webbdesign med CMS",
+    "Databaser", 
+    "Projektledning",
+    "Webbanvändbarhet",
+    "Databaser",
+    "Projektledning",
+    "Fullstackutveckling med ramverk",
+    "JavaScriptbaserad webbutveckling",
+    "Introduktion till programmering i C#",
+    "Webbutveckling med .NET",
+    "Industriell organisation och ekonomi"
+}; 
+
+var alltechniques = new string[] { 
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Typescript",
+    "PHP",
+    "Wordpress",
+    "RDB",
+    "NOSQL-DB",
+    "Laravel",
+    "Vue",
+    "React",
+    "C#",
+    "Razor",
+    "MVC"
+    
+};
+
+}
+
+<h2>Add project</h2>
+
+<a class="logout-btn" asp-controller="Login" asp-action="Logout">Logga ut</a>
+
+<div class="success-msg" id="projectAddedMessage">@ViewBag.AddedProjectSuccess</div>
+
+<form method="post">
+
+    <label asp-for="ProjectName"></label>
+    <input asp-for="ProjectName" placeholder="Sätt en rubrik på projektet..."/> 
+    <span asp-validation-for="ProjectName"></span>
+    <br>
+
+    <label asp-for="CourseName"></label>
+     <select asp-for="CourseName">  
+        @foreach (var course in allcourses)
+        {
+            <option value="@course">@course</option>
+        }   
+    </select> 
+    <span asp-validation-for="CourseName"></span>
+    <br>
+    
+    <label asp-for="Techniques"></label><br>
+    <span asp-validation-for="Techniques"></span>
+    <div class="technique-container">
+        @foreach (var technique in alltechniques){
+            <div class="technique-box">
+            <div>@technique</div> 
+            <input type="checkbox" value=@technique name="Techniques"/>
+            </div>
+        }
+     </div>
+    
+    <br>
+
+    <label asp-for="ProjectDescription"></label>
+    <textarea asp-for="ProjectDescription" rows="5" cols="40"></textarea>
+    <span asp-validation-for="ProjectDescription"></span>
+    <br>
+
+    <label asp-for="IsPublished"></label>
+    <input asp-for="IsPublished" name="IsPublished" type="radio" value="true" onchange="showpublish()"  /> Ja
+    <input asp-for="IsPublished" name="IsPublished" type="radio" value="false" onchange="hidepublish()" checked /> Nej
+    <br>
+
+    <input id="showPublishInput" asp-for="PublishUrl" placeholder="Länk till publicerat projekt..." /> 
+    <br>
+     
+    <label asp-for="isPresentation"></label>
+    <input asp-for="isPresentation" name="isPresentation" type="radio" value="true" onchange="showpresentation()" /> Ja
+    <input asp-for="isPresentation" name="isPresentation" type="radio" value="false" onchange="hidepresentation()" checked /> Nej
+    <br>
+
+    <input id="showPresentationInput" asp-for="PresentationUrl" placeholder="Länk till presentation..." /> 
+    <br>
+
+    <label asp-for="ImagePath"></label>
+    <input asp-for="ImagePath" placeholder="Bildens filnamn..."/> 
+    <span asp-validation-for="ImagePath"></span>
+    <br>
+    
+
+    <input type="submit" value="Lägg till projekt!">
+
+
+</form>

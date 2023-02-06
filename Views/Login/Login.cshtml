@@ -1,0 +1,20 @@
+@model DT191G_moment2.Models.LoginModel;
+
+<section class="login-form">
+    <h2>Logga in</h2>
+
+    <form method="post">
+
+        <label asp-for="Username"></label>
+        <input asp-for="Username">
+        <span asp-validation-for="Username"></span>
+
+        <label asp-for="Password"></label>
+        <input type="password" asp-for="Password">
+        <span asp-validation-for="Password"></span>
+  
+        <span>@ViewBag.InvalidCredentials</span> 
+
+        <input type="submit" value="Logga in">
+    </form>
+</section>

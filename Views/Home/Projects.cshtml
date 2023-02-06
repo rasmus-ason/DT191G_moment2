@@ -1,0 +1,62 @@
+@model List<DT191G_moment2.Models.ProjectModel>
+
+@{
+    ViewData["Title"] = "Projekt";
+}
+
+<h2>Lista över projekt</h2>
+
+<div class="horizontalDivideLine"></div>
+
+<div class="project-card-container">
+
+@foreach (var item in Model)
+    {
+        <article class="project-card">
+
+            <h3>@item.ProjectName</h3>
+
+            <div class="card-divideline"></div>
+
+            <div class="image-text-container">
+                <div class="project-card-1">
+                    <img src="~/images/@item.ImagePath" alt="">
+                </div>
+
+                <div class="project-card-2">
+                    <h4>Om projektet</h4>
+                    <p>@item.ProjectDescription</p>
+                    <p><strong>Kurs: </strong>@item.CourseName</p>
+                </div>
+            </div>
+           
+            <div class="project-card-3">
+            @if(item.Techniques != null) {
+                @foreach (var technique in item.Techniques) {
+                <p class="technique-text">@technique</p>
+                }
+            }else {
+                <p class="technique-text">No techniques added</p>
+            }
+            
+            </div>
+            
+            <div class="project-card-4 ">
+            @if(@item.IsPublished == true) {
+
+                <a href="@item.PublishUrl" target="_blank">Publicerat projekt</a>
+
+            }
+
+            @if(@item.isPresentation == true) {
+
+                <a href="@item.PresentationUrl" target="_blank">Videopresentation</a>
+
+            }
+            </div>
+            
+        </article>
+
+    }
+   
+</div>

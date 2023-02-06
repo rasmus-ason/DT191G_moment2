@@ -1,0 +1,44 @@
+[
+  {
+    "Name": "Webbutveckling I",
+    "Points": 7.5,
+    "Description": "I programmets första kurs arbetade vi med HTML, CSS och vikten av responsiv design och hur detta implemeneteras.",
+    "PublishedURL": null,
+    "VideoPresentation": null
+  },
+  {
+    "Name": "Webbutveckling II",
+    "Points": 7.5,
+    "Description": "I denna kurs arbetade jag med versionshantering och Git. Den resterade delen av kursen var till största del programmering i PHP. Jag arbetade med objektorienterad programmering med PHP och även anslutning mot databaser. ",
+    "PublishedURL": "https://studenter.miun.se/~raan2100/writeable/projekt_vt22-rasmus-ason/",
+    "VideoPresentation": null
+  },
+  {
+    "Name": "Webbutveckling III",
+    "Points": 7.5,
+    "Description": "I denna kurs arbetade jag med NodeJS och en automatiserad arbetsprocess via Gulp. Jag fördjupade mina kunskaper inom Ecmascript och introducerades till TypeScript. I kursen arbetade vi dessutom med CSS-preprocesseorer, och främst SASS för detta ändamål.",
+    "PublishedURL": "https://studenter.miun.se/~raan2100/writeable/DT173G/pliquing/",
+    "VideoPresentation": "https://studenter.miun.se/~raan2100/writeable/DT173G/pliquing/"
+  },
+  {
+    "Name": "Webbutveckling I",
+    "Points": 7.5,
+    "Description": "I programmets första kurs arbetade vi med HTML, CSS och vikten av responsiv design och hur detta implemeneteras.",
+    "PublishedURL": null,
+    "VideoPresentation": null
+  },
+  {
+    "Name": "Webbutveckling II",
+    "Points": 7.5,
+    "Description": "I denna kurs arbetade jag med versionshantering och Git. Den resterade delen av kursen var till största del programmering i PHP. Jag arbetade med objektorienterad programmering med PHP och även anslutning mot databaser. ",
+    "PublishedURL": "https://studenter.miun.se/~raan2100/writeable/projekt_vt22-rasmus-ason/",
+    "VideoPresentation": null
+  },
+  {
+    "Name": "Webbutveckling III",
+    "Points": 7.5,
+    "Description": "I denna kurs arbetade jag med NodeJS och en automatiserad arbetsprocess via Gulp. Jag fördjupade mina kunskaper inom Ecmascript och introducerades till TypeScript. I kursen arbetade vi dessutom med CSS-preprocesseorer, och främst SASS för detta ändamål.",
+    "PublishedURL": "https://studenter.miun.se/~raan2100/writeable/DT173G/pliquing/",
+    "VideoPresentation": null
+  }
+]

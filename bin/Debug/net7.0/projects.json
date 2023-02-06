@@ -1,0 +1,52 @@
+[
+  {
+    "ProjectName": "Lyxrestaurang med CMS",
+    "CourseName": "Webbutveckling III",
+    "Techniques": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "PHP",
+      "RDB"
+    ],
+    "ProjectDescription": "Till detta projekt skapades en publik webbplats till en lyxrestaurang. På webbplatsen kan besökaren se restaurangens meny och dryckeslista, boka restaurangens lyxkasse, genomföra en bordsbokning samt se kontaktuppgifter. Till webbplatsen finns ett administartionsgränssnitt där restaurangens anställda kan styra innehållet på webbplatsen - redigera meny, se bordsreservationer, se beställningar av lyxkasse. Kapaciteten restaurangen har och därav möjligheten till bordsbokning styrs av antalet bord samt restaurangens maxkapacitet, detta kan ställas in på admin-gränssnittet. Ett API är skapat för hantering av data i relationsdatabsen. ",
+    "IsPublished": true,
+    "PublishUrl": "https://studenter.miun.se/~raan2100/writeable/DT173G/pliquing/",
+    "isPresentation": false,
+    "PresentationUrl": null,
+    "ImagePath": "pliquing.png"
+  },
+  {
+    "ProjectName": "Reseforum för campervans",
+    "CourseName": "Webbutveckling II",
+    "Techniques": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "PHP",
+      "RDB"
+    ],
+    "ProjectDescription": "Till detta projekt skulle en webbplats av forumtyp skapas. UI är skapat med HTML, CSS och JavaScript. Webbplatsen använder objektorienterad PHP för dynamik och databaskopplingar. \r\n\r\nPå webbplatsen kan användare registrera ett konto och ges möjligheten att skapa blogginlägg likt en resedagbok. Inläggen presenteras och kan sorteras och filtreras beroende på användare eller land som inlägget handlar om. ",
+    "IsPublished": true,
+    "PublishUrl": "https://studenter.miun.se/~raan2100/writeable/projekt_vt22-rasmus-ason/",
+    "isPresentation": false,
+    "PresentationUrl": null,
+    "ImagePath": "campervansociety.png"
+  },
+  {
+    "ProjectName": "Wordpress-webbplats inom turism",
+    "CourseName": "Webbdesign med CMS",
+    "Techniques": [
+      "HTML",
+      "CSS",
+      "PHP",
+      "Wordpress"
+    ],
+    "ProjectDescription": "Detta projektarbete grundar sig i ett egenutvecklat Wordpress-tema som är till ett fiktivt företag som hyr ut semesterbostäder. På webbplatsen ska användare även ges info om aktiviteter och företagets anställda. De anställda ska kunna hantera boenden, skriva och redigera nyheter samt hantera poster och dylikt på en enkelt sätt - det vill säga enkelt kunna administrera hemsidan!\r\n\r\nPlugins för SEO är implementerade i administrations-gränssnittet.  \r\nBokningsformulärens funktionalitet är inte implementerad. ",
+    "IsPublished": true,
+    "PublishUrl": "https://studenter.miun.se/~raan2100/writeable/dt197g_projekt/wordpress/",
+    "isPresentation": false,
+    "PresentationUrl": null,
+    "ImagePath": "palsvillas.png"
+  }
+]

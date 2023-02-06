@@ -1,0 +1,33 @@
+@{
+    ViewData["Title"] = "CV";
+}
+
+<h2>CV</h2>
+
+<div class="horizontalDivideLine"></div>
+
+<section class="cv-container">
+
+    <div >
+        <partial name="PartialCV/_PartialCVHeader.cshtml"  />
+    </div>
+
+    <div>
+        <partial name="PartialCV/_PartialProfile.cshtml"  />
+    </div>
+
+    <div class="cv-text-content">
+        <div class="cv-text-content-1">
+            <partial name="PartialCV/_PartialExperience.cshtml" />
+        </div>
+
+        <div class="cv-text-content-2">
+            <partial name="PartialCV/_PartialTechniques.cshtml" />
+        </div>
+    </div>
+
+    <div>
+        <partial name="PartialCV/_PartialCVFooter.cshtml" />
+    </div>
+
+</section>

@@ -1,0 +1,122 @@
+/* CSS of form data */
+
+/* Logout btn */
+.logout-btn {
+    font-size: clamp(0.6rem, 2vw, 0.8rem);
+    text-decoration: none;
+    position: fixed;
+    z-index: 998;
+    right: 10px;
+    bottom: 15px;
+}
+
+/* General form  settings */
+form {
+    position: relative;
+    width: max(300px, 50vw);
+    margin: auto;
+    margin-bottom: 10%;
+    background-color: rgb(232, 232, 232);
+    padding: 5%;
+    box-shadow: 3px 3px 3px #ccc;
+}
+
+input[type=text], input[type=password],input[type=url], textarea, select {
+    width: 100%;
+    padding: 0.8em 1.2em;
+    margin: 1em 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: rgb(57, 88, 93);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 0.9;
+  }
+
+  input[type=checkbox] {
+    margin: 10px 3px 10px 3px;
+    width: 15px;
+    height: 15px;
+    border-style: none;
+    background-color: transparent;
+
+  }
+  
+  input[type=submit]:hover {
+    opacity: 1;
+    transition: 1s all;
+  }
+
+  label {
+    font-size: clamp(0.75rem, 2vw, 1rem);
+    margin-bottom: 10px;
+  }
+
+  .technique-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    grid-gap: 10px;
+    margin: 20px 0 20px 0;
+    
+  }
+
+  .technique-box {
+    text-align: center;
+    background-color: rgb(246, 246, 246);
+    box-shadow: 2px 2px 2px rgb(232, 232, 232);
+    padding: 5px;
+  }
+
+  form span {
+    color: red;
+    font-size: 0.8rem;
+    position: absolute;
+    right: 7%;
+    
+  }
+
+  .success-msg {
+    background-color: cadetblue;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    color: #eee;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 2px rgb(232, 232, 232);
+
+  }
+
+/* Login form */
+.login-form {
+    margin: auto;
+    padding: 5%;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login-form label {
+  margin-bottom: -20px;
+  font-size: clamp(1rem, 1vw, 1.1rem);
+}
+
+.login-form h2 {
+    text-align: center;
+}
+
+form{
+    border-style: none;
+}

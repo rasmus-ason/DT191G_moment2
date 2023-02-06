@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Ander\\dt191g_moment2\\wwwroot\\css\\cv.css",
+      "PackagePath": "staticwebassets\\css\\cv.css"
+    },
+    {
+      "Id": "C:\\Users\\Ander\\dt191g_moment2\\wwwroot\\css\\form.css",
+      "PackagePath": "staticwebassets\\css\\form.css"
+    },
+    {
+      "Id": "C:\\Users\\Ander\\dt191g_moment2\\wwwroot\\css\\list.css",
+      "PackagePath": "staticwebassets\\css\\list.css"
+    },
+    {
+      "Id": "C:\\Users\\Ander\\dt191g_moment2\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\Ander\\dt191g_moment2\\wwwroot\\images\\bild_cv.jpg",
+      "PackagePath": "staticwebassets\\images\\bild_cv.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ander\\dt191g_moment2\\wwwroot\\images\\campervansociety.png",
+      "PackagePath": "staticwebassets\\images\\campervansociety.png"
+    },
+    {
+      "Id": "C:\\Users\\Ander\\dt191g_moment2\\wwwroot\\images\\palsvillas.png",
+      "PackagePath": "staticwebassets\\images\\palsvillas.png"
+    },
+    {
+      "Id": "C:\\Users\\Ander\\dt191g_moment2\\wwwroot\\images\\pliquing.png",
+      "PackagePath": "staticwebassets\\images\\pliquing.png"
+    },
+    {
+      "Id": "C:\\Users\\Ander\\dt191g_moment2\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.DT191G_moment2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.DT191G_moment2.props",
+      "PackagePath": "build\\DT191G_moment2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.DT191G_moment2.props",
+      "PackagePath": "buildMultiTargeting\\DT191G_moment2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.DT191G_moment2.props",
+      "PackagePath": "buildTransitive\\DT191G_moment2.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

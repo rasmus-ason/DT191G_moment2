@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] | Portfolio Rasmus Andersson</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="~/css/main.css">
+    <link rel="stylesheet" type="text/css" href="~/css/form.css">
+    <link rel="stylesheet" type="text/css" href="~/css/list.css">
+    <link rel="stylesheet" type="text/css" href="~/css/cv.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header>
+        <div class="header-text">
+            <h1>Portfolio | Rasmus Andersson</h1>
+        </div>
+        <div class="header-nav">
+               <partial name="../../Views/_PartialsNavigation/_PartialNavigation.cshtml"  />
+        </div>   
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+    <footer>
+            <partial name="../../Views/_PartialsNavigation/_PartialFooterNavigation.cshtml"  />
+    </footer>
+
+    <script src="~/js/main.js"></script>
+</body>
+</html>
